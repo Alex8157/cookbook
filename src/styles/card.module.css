@@ -1,0 +1,46 @@
+.card {
+  height: 100%;
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  transition: transform 0.2s;
+  background: linear-gradient(45deg, #FF8E53, #FE6B8B);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: 278px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.card h2 {
+  color: #fff;
+}
+
+.card p {
+  color: #f2f2f2;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .category {
+      flex: 0 1 calc(33.33% - 20px);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .category {
+      flex: 0 1 calc(25% - 20px);
+    }
+}

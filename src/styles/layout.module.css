@@ -1,0 +1,44 @@
+.header {
+    width: 100%;
+    background: linear-gradient(45deg, #FF8E53, #FE6B8B);
+    padding: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navigation {
+    height: 21px;
+}
+
+.header a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 10px;
+    display: inline-block;
+    transition: transform 0.3s;
+}
+
+.header a:hover {
+    transform: scale(1.1);
+}
+
+.title {
+    height: 37px;
+    text-align: center;
+}
+
+.main {
+    padding: 20px;
+}
+
+@media screen and (min-width: 1440px) { 
+    .main {
+        margin: 0 5%;
+    }
+}
+
+@media screen and (min-width: 2560px) { 
+    .main {
+        margin: 0 15%;
+    }
+}

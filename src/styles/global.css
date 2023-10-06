@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+a {
+  color: inherit; /* Наследует цвет от родительского элемента */
+  text-decoration: none;
+}
+
+.container{
+  margin: 0;
+}
+
+@media screen and (min-width: 2560px) {
+  .container{
+    margin: 0 20%;
+  }
+}

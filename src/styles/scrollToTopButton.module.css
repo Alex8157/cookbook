@@ -1,0 +1,23 @@
+.scrollButton {
+    position: fixed;
+    bottom: -80px;
+    right: 20px;
+    background: linear-gradient(45deg, #FF8E53, #FE6B8B);
+    color: #fff;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+.scrollButton:hover {
+    transform: translateY(-105px);
+}
+
+.visible {
+    transform: translateY(-100px);
+}
+
+.scrollButton img{
+    width: 40px;
+}
